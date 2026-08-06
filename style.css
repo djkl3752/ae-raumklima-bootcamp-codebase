@@ -1,0 +1,75 @@
+body {
+    front-family: Arial, sans-serif; 
+    background: #f0f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px; 
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    width: 280px
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #ff9900;
+    border-bottom: 2px solid #e0e0e0
+    padding-bottom: 8px;
+}
+
+.wert {
+    font-size: 24px;
+    margin: 12px 0;
+    color: #1e1d1d;
+}
+
+.status {
+    margin-top: 16px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gut {
+    background: #e8f5e9;
+    color: #0aef16;
+    border: 1px solid #c8e6c9;
+}
+
+.kritisch {
+    background: #fff3e0;
+    color: #e65100;
+    border: 1px solid #ffe0b2;
+}
+
+.schlecht {
+    background: #ffebee;
+    color: #fe0202;
+    border: 1px solid #ffcdd2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f4;
+    padding: 40px;
+}
+
+.karten-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sensor {
+    font-family: Arial, sans-serif;
+    gap: 16px;
+    border: 1px;
+}
+
