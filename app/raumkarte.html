@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raumkarte - Übung</title>
+    <script src="data.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+        
+<body>
+
+    <h1>Raumklima Monitor</h1>
+
+
+    <div class="karten-grid">
+
+        <div class="card" id="card">
+            <h2>Raum B101</h2>
+             
+            <div class="wert" id="wert">TEMP*🌡️ 23.4 °C</div>
+            <div class="wert1" id="wert1">LFTF*💧 51 %</div>
+            <div class="status gut">Status: Gut✅</div>
+        <div class="sensor">Sensor SN00001</div>
+
+
+        <div class="card1" id="card1">
+            <h4>*TEMP: Temperatur</h4>
+            <h5>*LFTF: Luftfeuchtigkeit</h5>
+            <p class="laden">⏳ Lade Daten...</p>
+        </div> 
+    
+    </div>
+
+    <button class="button" onclick="loadData()">Neu laden</button>
+    
+
+</body>
+</html>
